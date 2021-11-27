@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_weight=".32"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#E40D56"
+        android:gravity="center"
+        android:text="@string/text"
+        android:textColor="#F3EFEF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+        />
+
+
+    <EditText
+
+        android:layout_weight=".35"
+        android:id="@+id/edittext"
+        android:layout_width="320dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:hint="@string/Hints"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:cursorVisible="true"
+        android:backgroundTint="#E91E63"
+
+        />
+
+    <Button
+        android:layout_weight=".24"
+        android:id="@+id/buttonid"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+         android:text="@string/Button"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:background="#FFE91E63"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+
+    <TextView
+        android:layout_weight=".50"
+        android:id="@+id/textview"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+
+        />
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
